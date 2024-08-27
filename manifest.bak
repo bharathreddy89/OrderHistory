@@ -7,12 +7,15 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
-  <null name="listACL"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="WmSAP">*.*</value>
+  </record>
+  <value name="listACL">Default</value>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
   <null name="build"/>
   <null name="description"/>
   <value name="created_date">08-08-2024 15:29:27 IST</value>
   <null name="extendedProperties"/>
+  <null name="target_server_version"/>
 </Values>
