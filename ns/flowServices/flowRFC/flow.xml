@@ -4,7 +4,7 @@
 
   <!-- nodes -->
 
-<INVOKE TIMEOUT="" SERVICE="order.adapterServices:RFCServices" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<INVOKE TIMEOUT="" SERVICE="adapterServices:RFCServices" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
